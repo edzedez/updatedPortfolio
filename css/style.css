@@ -33,8 +33,8 @@ video{
 }
 
 .odd{
-  background-color: #E5E5E8;
-  min-height: 500px;
+  background-color: #222222;
+  min-height: 300;
 }
 
 #me{
@@ -343,22 +343,53 @@ video{
 .timeline-badge{
   background-color: white !important;
 }
-.progress{
-  border-radius: 20px;
+
+body {
+    margin: 30px 0px;
+}
+.progress {
+    position: relative;
   height: 25px;
 }
+.progress > .progress-type {
+  position: absolute;
+  left: 0px;
+  font-weight: 800;
+  padding: 3px 30px 2px 10px;
+  color: rgb(255, 255, 255);
+  background-color: rgba(25, 25, 25, 0.2);
+}
+.progress > .progress-completed {
+  position: absolute;
+  right: 0px;
+  font-weight: 800;
+  padding: 3px 10px 2px;
+}
+
+#jTitle{
+    font-size: 24px;
+}
+
+.progress{
+    border-radius: 20px;
+    height: 25px;
+}
+
+#progress1{
+    background-color: #222222;
+}
 .skill-name{
-  text-transform: uppercase;
-  margin-left: 10px;
-  padding-left:10px;
-  padding-top: 2.5px;
-  float:left;
-  font-family: 'Raleway', sans-serif;
-  font-size: 1.1em;
+    text-transform: uppercase;
+    margin-left: 10px;
+    padding-left:10px;
+    padding-top: 2.5px;
+    float:left;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1em;
 }
 
 .progress .progress-bar, .progress .progress-bar.progress-bar-default {
-    background-color: #46a546 ;
+    background-color: seagreen ;
 }
 .progress  .progress-bar{
     animation-name: animateBar;
@@ -375,82 +406,114 @@ video{
 /*media Queries*/
 
 @media (min-width: 768px) and (max-width: 991px){
-  #about-section h1{font-size: 2.0em;}
-  .nav-pills li a{font-size: 1.3em !important;}
+    #about-section h1{font-size: 2.0em;}
+    .nav-pills li a{font-size: 1.3em !important;}
 
 
 }
 
 
 @media (max-width: 767px){
-  #about-section h1{
-    margin-top: 90px !important;
-    font-size: 1.5em;}
-  .nav-pills li a{font-size: 1.3em !important;}
-  .about-me-text{font-size: 1.0em;}
-  .btn-tab .btn-overide{font-size: 0.8em;
-    width: 200px;
-  }
-  #about-section{
-    height: 750px;
-  }
-  #about-section h1{
-  margin-top: 50px;
-  
+    #about-section h1{
+        margin-top: 90px !important;
+        font-size: 1.5em;}
+    .nav-pills li a{font-size: 1.3em !important;}
+    .about-me-text{font-size: 1.0em;}
+    .btn-tab .btn-overide{font-size: 0.8em;
+        width: 200px;
+    }
+    #about-section{
+        height: 750px;
+    }
+    #about-section h1{
+    margin-top: 50px;
+    
 }
 }
 @media (max-width: 456px){
-  #about-section{
-    height: 730px;
-  }
-  .nav-pills li a{font-size: 0.9em !important;}
+    #about-section{
+        height: 730px;
+    }
+    .nav-pills li a{font-size: 0.9em !important;}
 }
 
 @media(max-width: 648px){
-  #about-section{
-    height: 800px;
-  }
+    #about-section{
+        height: 800px;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 553px){
-  #about-section{
-    height: 900px;
-  }
+    #about-section{
+        height: 900px;
+    }
 }
 
 @media (max-width: 479px){
-  .btn-hire{
-    margin-top: 20px!important;
-    
-  }
-  .btn-contact{
-    margin-top: 10px !important;
-  }
+    .btn-hire{
+        margin-top: 20px!important;
+        
+    }
+    .btn-contact{
+        margin-top: 10px !important;
+    }
 
-  #about-section{
-    height: 950px;
-  }
+    #about-section{
+        height: 950px;
+    }
 }
 
 @media (max-width: 442px){
-  #about-section{
-    height: 980px;
-  }
+    #about-section{
+        height: 980px;
+    }
 }
 
 @media (max-width: 411px){
-  #about-section{
-    height: 1020px;
-  }
+    #about-section{
+        height: 1020px;
+    }
 }
 
 @media (max-width: 373px){
-  #about-section{
-    height: 1050px;
-  }
+    #about-section{
+        height: 1050px;
+    }
 }
 
-#goDown{
-  margin-top: 10px;
+#footer{
+    min-height: 300px;
+    background-color: slategrey;
 }
 
+#port{
+    color: white;
+}
+
+#skillset, .text-left{
+    color: white;
+}
+
+.nono{
+    height: 300px;
+}
+
+.superFooter{
+    text-align: center;
+    min-height: 40px;
+    width: 100%;
+    background-color: #363738;
+    line-height: 3;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.superFooter a{
+    color: white;
+    margin-left: 10px;
+}
+
+.superFooter a:hover{
+    color: seagreen;
+    margin-left: 10px;
+}
