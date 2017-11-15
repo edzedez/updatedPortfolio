@@ -47,8 +47,8 @@ video{
 
 
 #aboutEd{
+    font-size: 20px;
   text-indent: 20px;
-  margin-top: 50px;
   color: black;
 }
 
@@ -515,5 +515,13 @@ body {
 
 .superFooter a:hover{
     color: seagreen;
+    margin-left: 10px;
+}
+
+.title{
+    color: white;
+}
+
+#game{
     margin-left: 10px;
 }
